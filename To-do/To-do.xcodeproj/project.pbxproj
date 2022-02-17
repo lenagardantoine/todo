@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71DB87AF27BEFA0500151E6D /* To_doApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87AE27BEFA0500151E6D /* To_doApp.swift */; };
-		71DB87B127BEFA0500151E6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87B027BEFA0500151E6D /* ContentView.swift */; };
 		71DB87B327BEFA0700151E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DB87B227BEFA0700151E6D /* Assets.xcassets */; };
 		71DB87B627BEFA0700151E6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DB87B527BEFA0700151E6D /* Preview Assets.xcassets */; };
 		71DB87C027BEFA0800151E6D /* To_doTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87BF27BEFA0800151E6D /* To_doTests.swift */; };
@@ -17,6 +16,7 @@
 		71DB87D927BEFAFE00151E6D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87D827BEFAFE00151E6D /* Model.swift */; };
 		71DB87DB27BEFB4600151E6D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87DA27BEFB4600151E6D /* Task.swift */; };
 		71DB87DD27BEFC0700151E6D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87DC27BEFC0700151E6D /* MainView.swift */; };
+		71DB87DF27BF000900151E6D /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB87DE27BF000900151E6D /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		71DB87AB27BEFA0500151E6D /* To-do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DB87AE27BEFA0500151E6D /* To_doApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_doApp.swift; sourceTree = "<group>"; };
-		71DB87B027BEFA0500151E6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71DB87B227BEFA0700151E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71DB87B527BEFA0700151E6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71DB87BB27BEFA0800151E6D /* To-doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-doTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,7 @@
 		71DB87D827BEFAFE00151E6D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		71DB87DA27BEFB4600151E6D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		71DB87DC27BEFC0700151E6D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		71DB87DE27BF000900151E6D /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +100,13 @@
 		71DB87AD27BEFA0500151E6D /* To-do */ = {
 			isa = PBXGroup;
 			children = (
+				71DB87DE27BF000900151E6D /* TaskManager.swift */,
+				71DB87DA27BEFB4600151E6D /* Task.swift */,
 				71DB87DC27BEFC0700151E6D /* MainView.swift */,
 				71DB87D827BEFAFE00151E6D /* Model.swift */,
 				71DB87AE27BEFA0500151E6D /* To_doApp.swift */,
-				71DB87B027BEFA0500151E6D /* ContentView.swift */,
 				71DB87B227BEFA0700151E6D /* Assets.xcassets */,
 				71DB87B427BEFA0700151E6D /* Preview Content */,
-				71DB87DA27BEFB4600151E6D /* Task.swift */,
 			);
 			path = "To-do";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			files = (
 				71DB87DB27BEFB4600151E6D /* Task.swift in Sources */,
 				71DB87D927BEFAFE00151E6D /* Model.swift in Sources */,
-				71DB87B127BEFA0500151E6D /* ContentView.swift in Sources */,
+				71DB87DF27BF000900151E6D /* TaskManager.swift in Sources */,
 				71DB87DD27BEFC0700151E6D /* MainView.swift in Sources */,
 				71DB87AF27BEFA0500151E6D /* To_doApp.swift in Sources */,
 			);

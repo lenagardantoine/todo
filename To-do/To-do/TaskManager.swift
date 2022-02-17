@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+
+class TaskManager {
+
+    func createANewTask(title: String, content: String?) {
+        var task = Task(title: title, content: content)
+
+        
+        
+    }
+
+}

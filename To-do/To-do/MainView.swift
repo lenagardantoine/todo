@@ -5,17 +5,17 @@
 //  Created by Antoine on 17/02/2022.
 //
 
-import Foundation
 import SwiftUI
 
-struct MainView {
-    
+struct ContentView: View {
+    var body: some View {
+        Text("TO DO ")
+            .padding()
+    }
 }
 
-
-
-struct MainViewProvider: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        ContentView()
     }
 }

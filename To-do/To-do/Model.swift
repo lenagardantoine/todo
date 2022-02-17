@@ -10,8 +10,7 @@ import Foundation
 class Model {
 
     //Behaviour of the to do list itself
-
-    func createANewTask() {
-        
+    var State : Bool = true;
+    //UwU 
     }
-}
+

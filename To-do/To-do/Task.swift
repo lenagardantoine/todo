@@ -16,4 +16,10 @@ class Task {
         self.title = title
         self.content = content
     }
+
+    enum TaskState {
+        case ToDo, Doing, Finished
+    }
+
+    
 }
